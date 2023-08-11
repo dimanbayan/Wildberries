@@ -13,7 +13,7 @@ public class WBTest {
 
         open("https://www.wildberries.ru/");
         sleep(5000);
-        $("[id=\"searchInput\"]").setValue("пружинки для собаки");
+        $("[id=\"searchInput\"]").setValue("пружинки для хомячка");
         $(".search-catalog__btn--search").click();
         $(".product-card__name").shouldHave(text("Игрушка"));
     }
