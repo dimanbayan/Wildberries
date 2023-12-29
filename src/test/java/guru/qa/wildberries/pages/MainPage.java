@@ -50,6 +50,7 @@ public class MainPage {
 
     public MainPage setSearchPhoto(String value) {
         searchByPhotoBtn.uploadFromClasspath(value);
+                waitLoadingPage();
         return this;
     }
 
